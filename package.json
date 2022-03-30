@@ -1,0 +1,13 @@
+{
+  "name": "ytdlbatch",
+  "version": "1.0.0",
+  "description": "youtube download batch",
+  "main": "youtube-dl-batch.ps1",
+  "scripts": {
+    "start:config": "npm config set script-shell pwsh [--global]",
+    "start:file": "./youtube-dl-batch.ps1 -Path ./input/example.txt -OutPath C:/mp3-out/",
+    "start:csv": "./youtube-dl-batch.ps1 -CsvPath ./input/example.csv -OutPath C:/mp3-out/"
+  },
+  "author": "wschneider",
+  "license": "ISC"
+}
